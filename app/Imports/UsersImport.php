@@ -41,7 +41,7 @@ class UsersImport implements ToModel, WithHeadingRow
             'size' => $size,
             'ratio' => $ratio,
             'qty' => $qty,
-            'total_qty' => $totalQty,
+            'total_qty' => null,
         ]);
     }
 }
